@@ -1,0 +1,47 @@
+body{
+    background-color: grey;
+}
+
+.grid-container{
+    width: 600px;
+    height: 500px;
+    background-color: azure;
+    margin: 20px auto;
+    padding: 10px 50px 50px 50px;
+    border: 1px solid;
+}
+.grid-container h1{
+    background-color: green;
+    color: white;
+    font-size: 60px;
+    text-align: center;
+}
+.grid-container #questions{
+    font-size: 30px;
+    color: blue;
+}
+.buttons{
+    justify-content: center;
+}
+#option-1 , #option-2 , #option-3 , #option-4{
+    background-color: blue;
+    color: white;
+    border: 1px solid black;
+    font-size: 20px;
+    margin: 10px 40px 10px 0;
+    padding: 10px;
+    width: 250px;
+}
+
+#option-1:hover , #option-2:hover , #option-3:hover , #option-4:hover{
+    background-color: #0078bd;
+    cursor: pointer;
+}
+.quiz{
+    justify-self: center;
+}
+
+#progress{
+    font-size: 20px;
+    margin-top: 30px;
+}
